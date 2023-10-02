@@ -18,6 +18,8 @@
       },
       "mark": {"type": "circle", "tooltip": {"content": "data"}},
       "encoding": {
+        "longitude": {"field": "longitude", "type": "quantitative"},
+        "latitude": {"field": "latitude", "type": "quantitative"},
         "size": {
           "field": "Total Cases",
           "type": "quantitative",
